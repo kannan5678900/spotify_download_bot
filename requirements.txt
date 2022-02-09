@@ -2,38 +2,36 @@ apscheduler
 
 
 pytz
+six
 
-six = ">=1.4.0"
+tzlocal
 
-tzlocal = ">=1.2"
 
-[package.extras]
 
-asyncio = ["trollius"]
+asyncio
 
-doc = ["sphinx", "sphinx-rtd-theme"]
+doc
 
-gevent = ["gevent"]
+gevent
 
-mongodb = ["pymongo (>=2.8)"]
+mongodb
 
-redis = ["redis (>=3.0)"]
+redis
 
-rethinkdb = ["rethinkdb (>=2.4.0)"]
+rethinkdb 
+sqlalchemy 
 
-sqlalchemy = ["sqlalchemy (>=0.8)"]
+testing
 
-testing = ["pytest", "pytest-cov", "pytest-tornado5", "mock", "pytest-asyncio (<0.6)", "pytest-asyncio"]
+tornado
 
-tornado = ["tornado (>=4.3)"]
+twisted
 
-twisted = ["twisted"]
+zookeeper
 
-zookeeper = ["kazoo"]
 
-[[package]]
 
-name = "beautifulsoup4"
+beautifulsoup4
 
 
 
